@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>2020-psytcore</id>
+    <version>1.0.0</version>
+    <title>2020-psytcore</title>
+    <authors>IPGodahenage</authors>
+    <owners>IPGodahenage</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>2020-psytcore Sitecore Hackathon 2020</description>
+    <releaseNotes>new build 2020</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="App_Config\**\*.config" target="App_Config" />
+    <file src="App_Data\**\*" target="App_Data" />
+    <file src="Styles\**\*" target="Styles" />
+    <file src="Fonts\**\*" target="Fonts" />
+    <file src="Scripts\**\*" target="Scripts" />
+	<file src="Images\**\*" target="Images" />
+    <file src="bin\*.dll" target="bin" />
+	  <file src="bin\roslyn\*" target="bin\roslyn" />
+    <file src="Views\**\*" target="Views" />
+	  <file src="temp\**\*.update" target="Temp" />
+    <file src="Web.config" target="" />
+    <file src="Web.*.config" target="" />
+    <file src="500Error.html" target="" />
+    <file src="Robot.txt" target="" />
+    <file src="Global.asax" target="" />
+  </files>
+</package>

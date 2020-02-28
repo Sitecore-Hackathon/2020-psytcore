@@ -1,0 +1,59 @@
+{
+  "name": "Sitecore-Hackathon-2020-psytcore",
+  "version": "1.0.0",
+  "description": "new sitecore build 2020",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "del": "^2.2.2",
+    "glob": "^7.0.3",
+    "glob-fs": "^0.1.6",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-exec": "^2.1.2",
+    "gulp-flatten": "^0.3.1",
+    "gulp-foreach": "^0.1.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-msbuild": "0.5.5",
+    "gulp-newer": "^1.0.0",
+    "gulp-nuget-restore": "^0.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "gulp-wait": "0.0.2",
+    "gulp-watch": "^4.3.5",
+    "merge-stream": "^1.0.0",
+    "obj-traverse": "^1.0.0",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.4",
+    "simple-object-query": "^1.6.1",
+    "sync-exec": "0.6.1",
+    "to-absolute-path": "1.0.0",
+    "toposort": "^1.0.3",
+    "vinyl": "^1.1.0",
+    "xml2js": "^0.4.16",
+    "xmlpoke": "^0.1.12",
+    "yargs": "^6.4.0",
+    "yeoman-generator": "^1.1.1"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "browser-sync": "2.18.13",
+    "child_process": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-nuget-restore": "^0.4.0",
+    "gulp-nunit-runner": "^1.2.1",
+    "gulp-xunit-runner": "^0.1.1",
+    "mocha": "^3.4.1"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec tests/*.js",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sitecore-Hackathon/2020-psytcore.git"
+  },
+  "author": "IP Godahenage",
+  "license": "ISC",
+  "homepage": "http://sc-hack-2020sc.dev.local"
+}
